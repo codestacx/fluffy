@@ -1,0 +1,99 @@
+.password-form__wrapper {
+  width: 100%;
+  margin: 0;
+}
+.banner-password {
+  background-image: url(./images/banner.png);
+  color: white;
+  height: 152px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.password-form__wrapper__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  .password-form__wrapper__container {
+    align-items: center;
+  }
+}
+
+.password-form__wrapper__container__form {
+  /* width: 300px; */
+  margin: 20px auto 0 auto;
+}
+
+.password-form__wrapper__container__form div {
+  padding: 10px;
+}
+.password-form__wrapper__container__form__input-group {
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.password-form__wrapper__container__form__input-group label {
+  /* updated styles */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 99%;
+
+  /* identical to box height, or 14px */
+  color: #c4c4c4;
+}
+
+.password-form__wrapper__container__form__input-group input {
+  border: unset;
+  border-bottom: 0.8px solid #dadada;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 10px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 99%;
+
+  /* identical to box height, or 14px */
+
+  color: #c4c4c4;
+}
+
+.password-form__wrapper__container__form__input-group input:focus {
+  outline: unset;
+}
+.password-form__wrapper__container__form__btns {
+  text-align: center;
+  margin: 20px 0;
+}
+.password-form__wrapper__container__form__btns button {
+  border: unset;
+  width: 110px;
+  padding: 8px 0;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 99%;
+  color: #ffffff;
+}
+.password-form__wrapper__container__form__btns :first-child {
+  margin-right: 10px;
+}
+.grey {
+  background: #c9c9c9;
+}
+
+.blue {
+  background: #77b4d6;
+}
